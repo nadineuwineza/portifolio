@@ -16,31 +16,7 @@
     transition: all 150ms ease-in-out;
     text-decoration: none !important;
   }
-  a:hover {
-    color: #555555;
-  }
-  
-  h1, h2, h3, h4, h5 {
-    color: #555555;
-  }
-  
-  ::-webkit-input-placeholder {
-    color: #999999;
-  }
-  
-  :-moz-placeholder {
-    /* Firefox 18- */
-    color: #999999;
-  }
-  
-  ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #999999;
-  }
-  
-  :-ms-input-placeholder {
-    color: #999999;
-  }
+
   
   .main-content,
   .banner-bg {
@@ -251,11 +227,10 @@
   .banner-bg {
     padding: 260px 80px;
     position: relative;
-    background: url("../img/7.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 2;
+   
+  }
+  .list{
+    color: blueviolet;
   }
  
   
@@ -294,7 +269,7 @@
     width: 100%;
     display: block;
   }
-  
+ 
   /*------ projects ------ */
   .projects-holder {
     margin-right: 0;
@@ -365,7 +340,7 @@
   -------------------------------------------------------- */
   #footer p.copyright-text {
     margin: 40px 0;
-    font-size: 13px;
+    font-size: 15px;
   }
   #footer p.copyright-text a {
     color: #050607;
@@ -374,3 +349,25 @@
     color: #6cc0f7;
   }
   
+  /*------ contact ------ */
+.contact-form {
+  margin-top: 40px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #aaaaaa;
+  padding: 12px;
+  color: #999999;
+  margin-bottom: 30px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: 0;
+}
+.contact-form .button {
+  width: auto;
+  background: #5f6d7e;
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+}
